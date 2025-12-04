@@ -1,0 +1,22 @@
+{"timestamp":"2025-12-04T17:44:40.725957Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-04T17:44:40.727463Z","level":"info","event":"Filling up the DagBag from /workspaces/SIS2/airflow/dags/web_scrape/dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-04T17:44:40.744394Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/workspaces/SIS2/airflow/dags/web_scrape/dag.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2025-12-04T17:44:40.763404Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.763519Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.763831Z","level":"info","event":"Current task name:load_ispace_data","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.763978Z","level":"info","event":"Dag name:web_scrape","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.791006Z","level":"info","event":"Loaded 104 rows from /workspaces/SIS2/data/cleaned_data.parquet","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.803914Z","level":"info","event":"                   product_id         model_name  ...   price  memory_gb","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.804229Z","level":"info","event":"0     ipad_pro_13_m5_3b89f4d6     iPad Pro 13 M5  ...  963990        256","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.804348Z","level":"info","event":"1     ipad_pro_11_m5_8bd5388b     iPad Pro 11 M5  ...  895990        256","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.804441Z","level":"info","event":"2     ipad_air_13_m3_9df845b6     iPad Air 13 M3  ...  517990        128","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.804527Z","level":"info","event":"3  ipad_mini_a17_pro_e8f0ec81  iPad mini A17 Pro  ...  370990        128","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.804607Z","level":"info","event":"4           ipad_a16_e4254b8f           iPad A16  ...  229990        128","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.804685Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.804764Z","level":"info","event":"[5 rows x 7 columns]","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.813844Z","level":"info","event":"Inserted 104 rows into table 'Ispace_products' in database '/workspaces/SIS2/data/output.db'","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.813303Z","level":"info","event":"Data loading completed, 104 rows inserted into Ispace_products.","logger":"root","filename":"loader.py","lineno":38}
+{"timestamp":"2025-12-04T17:44:40.813496Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-12-04T17:44:40.826513Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.826622Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.826951Z","level":"info","event":"Task operator:<Task(PythonOperator): load_ispace_data>","logger":"task.stdout"}

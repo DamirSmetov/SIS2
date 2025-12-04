@@ -1,0 +1,378 @@
+{"timestamp":"2025-12-04T17:39:45.996408Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-04T17:39:45.997180Z","level":"info","event":"Filling up the DagBag from /workspaces/SIS2/airflow/dags/web_scrape/dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-04T17:39:46.007303Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/workspaces/SIS2/airflow/dags/web_scrape/dag.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2025-12-04T17:39:46.067276Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:46.067392Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:46.067579Z","level":"info","event":"Current task name:scrape_ispace","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:46.067672Z","level":"info","event":"Dag name:web_scrape","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.346969Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '963\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.364293Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '895\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.381496Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Space Gray', 'price': '517\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.398479Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '128 ГБ', 'year': '2024', 'color': 'Space Gray', 'price': '370\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.415497Z","level":"info","event":"{'name': 'iPad A16', 'memory': '128 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '229\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.432605Z","level":"info","event":"{'name': 'iPad A16', 'memory': '128 ГБ', 'year': '2025', 'color': 'Синий', 'price': '229\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.450253Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '128 ГБ', 'year': '2024', 'color': 'Фиолетовый', 'price': '370\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.467016Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0118\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.483838Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Синий', 'price': '517\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.500945Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Фиолетовый', 'price': '517\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.524223Z","level":"info","event":"{'name': 'iPad Pro 11 M4', 'memory': '256 ГБ', 'year': '2024', 'color': 'Серебристый', 'price': '741\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.543188Z","level":"info","event":"{'name': 'iPad A16', 'memory': '256 ГБ', 'year': '2025', 'color': 'Желтый', 'price': '332\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.560349Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '512 ГБ', 'year': '2025', 'color': 'Синий', 'price': '740\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.577429Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '895\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.600342Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Starlight', 'price': '369\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.628990Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '512 ГБ', 'year': '2025', 'color': 'Space Gray', 'price': '740\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.645118Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Синий', 'price': '369\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.666839Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '741\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.683927Z","level":"info","event":"{'name': 'iPad Pro 11 M4', 'memory': '256 ГБ', 'year': '2024', 'color': 'Space Black', 'price': '741\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.700734Z","level":"info","event":"{'name': 'iPad A16', 'memory': '128 ГБ', 'year': '2025', 'color': 'Желтый', 'price': '229\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:54.728764Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Фиолетовый', 'price': '369\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:55.966834Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '963\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:56.030466Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '895\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:56.082985Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Space Gray', 'price': '517\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:56.230054Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '128 ГБ', 'year': '2024', 'color': 'Space Gray', 'price': '370\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:56.319092Z","level":"info","event":"{'name': 'iPad A16', 'memory': '128 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '229\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:56.367573Z","level":"info","event":"{'name': 'iPad A16', 'memory': '128 ГБ', 'year': '2025', 'color': 'Синий', 'price': '229\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:56.420751Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '128 ГБ', 'year': '2024', 'color': 'Фиолетовый', 'price': '370\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:56.617849Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0118\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:57.483651Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Синий', 'price': '517\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:57.546980Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Фиолетовый', 'price': '517\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:57.607553Z","level":"info","event":"{'name': 'iPad Pro 11 M4', 'memory': '256 ГБ', 'year': '2024', 'color': 'Серебристый', 'price': '741\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:57.674980Z","level":"info","event":"{'name': 'iPad A16', 'memory': '256 ГБ', 'year': '2025', 'color': 'Желтый', 'price': '332\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:57.727982Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '512 ГБ', 'year': '2025', 'color': 'Синий', 'price': '740\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:57.799979Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '895\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:57.859666Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Starlight', 'price': '369\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:57.907980Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '512 ГБ', 'year': '2025', 'color': 'Space Gray', 'price': '740\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:57.962139Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Синий', 'price': '369\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:58.063728Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '741\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:58.122264Z","level":"info","event":"{'name': 'iPad Pro 11 M4', 'memory': '256 ГБ', 'year': '2024', 'color': 'Space Black', 'price': '741\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:58.203915Z","level":"info","event":"{'name': 'iPad A16', 'memory': '128 ГБ', 'year': '2025', 'color': 'Желтый', 'price': '229\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:39:58.285021Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Фиолетовый', 'price': '369\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:04.684432Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0705\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:04.742979Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0483\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:04.783988Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0408\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:04.826185Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0260\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:04.853749Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '512 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0112\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:04.879363Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '512 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0043\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:04.916994Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Space Gray', 'price': '369\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:04.949725Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0934\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.001078Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0934\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.085592Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0860\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.140114Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0860\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.225412Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0779\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.281009Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0779\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.333377Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0711\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.387770Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0711\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.450506Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0705\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.524712Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0637\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.565168Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0637\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.596960Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0637\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.656225Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0637\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:05.699606Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0563\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.143380Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0563\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.186975Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0557\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.207308Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0557\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.223658Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '2 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0483\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.239370Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0483\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.259218Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0483\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.275119Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0414\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.290968Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0414\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.311682Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0408\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.328354Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0340\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.343555Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0340\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.358538Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '512 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0266\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.373482Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '512 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0266\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.388173Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0260\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.402773Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0186\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.427586Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '1 ТБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0186\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.442596Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '1 ТБ', 'year': '2025', 'color': 'Синий', 'price': '1\\xa0123\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.458495Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '1 ТБ', 'year': '2025', 'color': 'Starlight', 'price': '1\\xa0123\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.473440Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '1 ТБ', 'year': '2025', 'color': 'Фиолетовый', 'price': '1\\xa0123\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.490281Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0118\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:09.520225Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '512 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '1\\xa0112\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.681678Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '512 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '1\\xa0043\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.696499Z","level":"info","event":"{'name': 'iPad Pro 13 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '963\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.719757Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '1 ТБ', 'year': '2025', 'color': 'Space Gray', 'price': '952\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.740784Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '1 ТБ', 'year': '2025', 'color': 'Starlight', 'price': '950\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.755345Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '1 ТБ', 'year': '2025', 'color': 'Фиолетовый', 'price': '950\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.770369Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '512 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '889\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.785274Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '512 ГБ', 'year': '2025', 'color': 'Space Black', 'price': '889\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.800882Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '512 ГБ', 'year': '2025', 'color': 'Starlight', 'price': '740\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.816786Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '512 ГБ', 'year': '2025', 'color': 'Фиолетовый', 'price': '740\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.865975Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '1 ТБ', 'year': '2025', 'color': 'Space Gray', 'price': '805\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.881585Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '1 ТБ', 'year': '2025', 'color': 'Синий', 'price': '805\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.897522Z","level":"info","event":"{'name': 'iPad Pro 11 M5', 'memory': '256 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '741\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.914768Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '256 ГБ', 'year': '2025', 'color': 'Space Gray', 'price': '592\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.929591Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '256 ГБ', 'year': '2025', 'color': 'Синий', 'price': '592\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:12.944615Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '256 ГБ', 'year': '2025', 'color': 'Starlight', 'price': '592\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:13.003265Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '256 ГБ', 'year': '2025', 'color': 'Фиолетовый', 'price': '592\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:13.055770Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '512 ГБ', 'year': '2025', 'color': 'Space Gray', 'price': '592\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:13.123205Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '512 ГБ', 'year': '2025', 'color': 'Синий', 'price': '592\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:13.186929Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '512 ГБ', 'year': '2025', 'color': 'Starlight', 'price': '592\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:13.227054Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '512 ГБ', 'year': '2025', 'color': 'Фиолетовый', 'price': '592\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:13.261960Z","level":"info","event":"{'name': 'iPad Air 13 M3', 'memory': '128 ГБ', 'year': '2025', 'color': 'Starlight', 'price': '517\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.089254Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '512 ГБ', 'year': '2024', 'color': 'Space Gray', 'price': '592\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.113269Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '256 ГБ', 'year': '2024', 'color': 'Space Gray', 'price': '561\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.172992Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '256 ГБ', 'year': '2025', 'color': 'Space Gray', 'price': '443\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.212379Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '256 ГБ', 'year': '2025', 'color': 'Синий', 'price': '443\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.230025Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '256 ГБ', 'year': '2025', 'color': 'Starlight', 'price': '443\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.246226Z","level":"info","event":"{'name': 'iPad Air 11 M3', 'memory': '256 ГБ', 'year': '2025', 'color': 'Фиолетовый', 'price': '443\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.264235Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '128 ГБ', 'year': '2024', 'color': 'Space Gray', 'price': '399\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.283842Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '128 ГБ', 'year': '2024', 'color': 'Синий', 'price': '487\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.300577Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '128 ГБ', 'year': '2024', 'color': 'Фиолетовый', 'price': '487\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.321124Z","level":"info","event":"{'name': 'iPad A16', 'memory': '512 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '481\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.338296Z","level":"info","event":"{'name': 'iPad A16', 'memory': '512 ГБ', 'year': '2025', 'color': 'Синий', 'price': '481\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.354114Z","level":"info","event":"{'name': 'iPad A16', 'memory': '512 ГБ', 'year': '2025', 'color': 'Желтый', 'price': '481\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.389760Z","level":"info","event":"{'name': 'iPad A16', 'memory': '512 ГБ', 'year': '2025', 'color': 'Розовый', 'price': '481\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.405615Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '256 ГБ', 'year': '2024', 'color': 'Space Gray', 'price': '444\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.421002Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '128 ГБ', 'year': '2024', 'color': 'Синий', 'price': '370\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.438588Z","level":"info","event":"{'name': 'iPad mini A17 Pro', 'memory': '128 ГБ', 'year': '2024', 'color': 'Starlight', 'price': '370\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.454480Z","level":"info","event":"{'name': 'iPad A16', 'memory': '256 ГБ', 'year': '2025', 'color': 'Серебристый', 'price': '332\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.474556Z","level":"info","event":"{'name': 'iPad A16', 'memory': '256 ГБ', 'year': '2025', 'color': 'Синий', 'price': '332\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.489945Z","level":"info","event":"{'name': 'iPad A16', 'memory': '256 ГБ', 'year': '2025', 'color': 'Розовый', 'price': '332\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:17.508364Z","level":"info","event":"{'name': 'iPad A16', 'memory': '128 ГБ', 'year': '2025', 'color': 'Розовый', 'price': '229\\xa0990\\xa0₸'}","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.521988Z","level":"info","event":"Pagination ended: ElementHandle.click: Timeout 30000ms exceeded.","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522142Z","level":"info","event":"Call log:","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522225Z","level":"info","event":"attempting click action","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522321Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522384Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522437Z","level":"info","event":"  - retrying click action, attempt #1","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522488Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522540Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522589Z","level":"info","event":"  - retrying click action, attempt #2","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522639Z","level":"info","event":"  -   waiting 20ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522691Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522741Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522790Z","level":"info","event":"  - retrying click action, attempt #3","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522839Z","level":"info","event":"  -   waiting 100ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.522888Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.525323Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.525398Z","level":"info","event":"  - retrying click action, attempt #4","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.525461Z","level":"info","event":"  -   waiting 100ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.525523Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.525584Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.525641Z","level":"info","event":"  - retrying click action, attempt #5","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.525693Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.525746Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.525797Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.525849Z","level":"info","event":"  - retrying click action, attempt #6","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.526123Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.526214Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.526932Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.527030Z","level":"info","event":"  - retrying click action, attempt #7","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.527111Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.527189Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.527268Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.527343Z","level":"info","event":"  - retrying click action, attempt #8","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.527431Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.527516Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.527595Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.529765Z","level":"info","event":"  - retrying click action, attempt #9","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.529885Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.530013Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.530113Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.530213Z","level":"info","event":"  - retrying click action, attempt #10","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.530320Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.530407Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.530495Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.531207Z","level":"info","event":"  - retrying click action, attempt #11","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.531323Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.531416Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.531506Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.531594Z","level":"info","event":"  - retrying click action, attempt #12","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.531681Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.531764Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.531849Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.531959Z","level":"info","event":"  - retrying click action, attempt #13","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532087Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532156Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532218Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532296Z","level":"info","event":"  - retrying click action, attempt #14","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532353Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532411Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532465Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532522Z","level":"info","event":"  - retrying click action, attempt #15","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532574Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532630Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532685Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.532737Z","level":"info","event":"  - retrying click action, attempt #16","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.534974Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.535246Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.535362Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.535472Z","level":"info","event":"  - retrying click action, attempt #17","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.535574Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.535675Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.535776Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.535998Z","level":"info","event":"  - retrying click action, attempt #18","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.536297Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.537030Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.537253Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.537361Z","level":"info","event":"  - retrying click action, attempt #19","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.537501Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.537593Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.537678Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.537761Z","level":"info","event":"  - retrying click action, attempt #20","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540064Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540170Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540259Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540323Z","level":"info","event":"  - retrying click action, attempt #21","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540379Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540433Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540489Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540542Z","level":"info","event":"  - retrying click action, attempt #22","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540595Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540646Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540701Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540753Z","level":"info","event":"  - retrying click action, attempt #23","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540805Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.540860Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.548312Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.548427Z","level":"info","event":"  - retrying click action, attempt #24","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.548539Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.548648Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.548754Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.548857Z","level":"info","event":"  - retrying click action, attempt #25","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.550161Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.550638Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.551114Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.551273Z","level":"info","event":"  - retrying click action, attempt #26","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.553207Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.553329Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.553450Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.555763Z","level":"info","event":"  - retrying click action, attempt #27","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.556610Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.556793Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.556927Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.557036Z","level":"info","event":"  - retrying click action, attempt #28","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.557130Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.558829Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.560870Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.561942Z","level":"info","event":"  - retrying click action, attempt #29","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.566884Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.567024Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.567133Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.567254Z","level":"info","event":"  - retrying click action, attempt #30","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.567357Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.569937Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.572168Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.573505Z","level":"info","event":"  - retrying click action, attempt #31","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.573867Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.573981Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.574055Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.574130Z","level":"info","event":"  - retrying click action, attempt #32","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.574680Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.574774Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.574859Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.575152Z","level":"info","event":"  - retrying click action, attempt #33","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.575263Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.575360Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.575451Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.575543Z","level":"info","event":"  - retrying click action, attempt #34","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.575631Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.575720Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.575809Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.575915Z","level":"info","event":"  - retrying click action, attempt #35","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576012Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576095Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576174Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576246Z","level":"info","event":"  - retrying click action, attempt #36","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576316Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576385Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576454Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576524Z","level":"info","event":"  - retrying click action, attempt #37","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576594Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576665Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576735Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576808Z","level":"info","event":"  - retrying click action, attempt #38","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.576880Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.577017Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.578629Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.578715Z","level":"info","event":"  - retrying click action, attempt #39","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.578786Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.578853Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.578954Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579021Z","level":"info","event":"  - retrying click action, attempt #40","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579088Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579153Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579225Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579294Z","level":"info","event":"  - retrying click action, attempt #41","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579359Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579426Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579501Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579568Z","level":"info","event":"  - retrying click action, attempt #42","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579636Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579693Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579746Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579797Z","level":"info","event":"  - retrying click action, attempt #43","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.579858Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.580180Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.580274Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.580352Z","level":"info","event":"  - retrying click action, attempt #44","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.580424Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.580494Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.580566Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.580639Z","level":"info","event":"  - retrying click action, attempt #45","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.580710Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.580781Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.580852Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.580952Z","level":"info","event":"  - retrying click action, attempt #46","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.581056Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.581147Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.581453Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.581714Z","level":"info","event":"  - retrying click action, attempt #47","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.582935Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.583064Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.583194Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.583291Z","level":"info","event":"  - retrying click action, attempt #48","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.583377Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.583471Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.583570Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.583658Z","level":"info","event":"  - retrying click action, attempt #49","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.583737Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.583822Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.583929Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584024Z","level":"info","event":"  - retrying click action, attempt #50","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584110Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584189Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584269Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584350Z","level":"info","event":"  - retrying click action, attempt #51","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584435Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584518Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584598Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584674Z","level":"info","event":"  - retrying click action, attempt #52","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584749Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584825Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.584926Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585037Z","level":"info","event":"  - retrying click action, attempt #53","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585136Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585212Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585283Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585356Z","level":"info","event":"  - retrying click action, attempt #54","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585429Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585501Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585572Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585644Z","level":"info","event":"  - retrying click action, attempt #55","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585776Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585858Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.585979Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586066Z","level":"info","event":"  - retrying click action, attempt #56","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586142Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586215Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586285Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586354Z","level":"info","event":"  - retrying click action, attempt #57","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586424Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586495Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586566Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586637Z","level":"info","event":"  - retrying click action, attempt #58","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586708Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586780Z","level":"info","event":"  -   waiting for element to be visible, enabled and stable","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586851Z","level":"info","event":"  -   element is not visible","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.586937Z","level":"info","event":"  - retrying click action, attempt #59","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.587009Z","level":"info","event":"  -   waiting 500ms","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.587079Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.686103Z","level":"info","event":"Collected 125 items","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.709457Z","level":"info","event":"Saved 125 items to data/output.parquet","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.709546Z","level":"info","event":"Scraping completed, 125 items saved.","logger":"root","filename":"scraper.py","lineno":73}
+{"timestamp":"2025-12-04T17:40:47.709942Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-12-04T17:40:47.729495Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.729597Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:40:47.729832Z","level":"info","event":"Task operator:<Task(PythonOperator): scrape_ispace>","logger":"task.stdout"}

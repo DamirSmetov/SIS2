@@ -1,0 +1,14 @@
+{"timestamp":"2025-12-04T17:44:17.815836Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-04T17:44:17.821259Z","level":"info","event":"Filling up the DagBag from /workspaces/SIS2/airflow/dags/web_scrape/dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-04T17:44:17.840815Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/workspaces/SIS2/airflow/dags/web_scrape/dag.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2025-12-04T17:44:17.875009Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:17.875136Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:17.875229Z","level":"info","event":"Current task name:clean_ispace_data","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:17.875312Z","level":"info","event":"Dag name:web_scrape","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:18.486039Z","level":"info","event":"Loaded 104 raw items from /workspaces/SIS2/data/raw_data.parquet","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.360059Z","level":"info","event":"Saved cleaned data with 104 items to /workspaces/SIS2/data/cleaned_data.parquet","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.360153Z","level":"info","event":"Data cleaning completed, 104 items saved.","logger":"root","filename":"cleaner.py","lineno":90}
+{"timestamp":"2025-12-04T17:44:40.360613Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-12-04T17:44:40.379830Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.379992Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-12-04T17:44:40.380148Z","level":"info","event":"Task operator:<Task(PythonOperator): clean_ispace_data>","logger":"task.stdout"}
