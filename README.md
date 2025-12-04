@@ -1,6 +1,4 @@
-Конечно! Я собрал всё в один компактный, но полный `README.md`, включающий описание проекта, инструкции по установке зависимостей, запуску Airflow, запуску парсера и ожидаемый результат:
 
-````markdown
 # iSpace ETL Pipeline
 
 ## Project Description
@@ -17,7 +15,7 @@ The ETL pipeline is orchestrated using **Apache Airflow**, which allows scheduli
 ```bash
 git clone <your-repo-url>
 cd <your-repo-folder>
-````
+
 
 ### 2. Create Virtual Environment and Install Dependencies
 
