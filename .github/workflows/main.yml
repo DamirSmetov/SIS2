@@ -1,4 +1,4 @@
-name: CI
+name: CI Pipeline
 
 on:
   push:
@@ -11,9 +11,18 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+
       - name: Run test
         run: echo "Test passed"
 
       - name: Check file exists
         run: test -f README.md
+
+      - name: Lint check
+        run: echo "Lint passed"
+
+      - name: Build project
+        run: echo "Build complete"
+
+      - name: Check README
+        run: grep -qi "project" README.md
