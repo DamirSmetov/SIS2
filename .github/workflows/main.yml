@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run test
+        run: echo "Test passed"
+
+      - name: Check file exists
+        run: test -f README.md
